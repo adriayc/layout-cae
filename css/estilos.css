@@ -16,6 +16,9 @@ body {
 .contenedor {
 	width: 1000px;
 	margin: 20px;
+
+	/*Para solucionar el problema del float*/
+	overflow: hidden;
 }
 
 header {
@@ -50,6 +53,8 @@ header nav ul li a:hover {
 .main {
 	width: 700px;
 	background: #fff;
+
+	float: left;
 }
 .main .imagen {
 	width: 100%;
@@ -70,5 +75,40 @@ header nav ul li a:hover {
 .main .posts article p {
 	margin-bottom: 15px;
 	/*Separacion entre lineas*/
+	line-height: 27px;
+}
+
+aside {
+	width: 300px;
+	background: #161f26;
+	color: #fff;
+	padding: 20px;
+
+	float: left;
+}
+aside .widget {
+	margin-bottom: 20px;
+}
+aside .widget .titulo {
+	color: #ff8000;
+	border-bottom: 1px solid #ff8000;
+	margin-bottom: 10px;
+}
+aside .widget ul {
+	list-style: none;
+}
+aside .widget ul li {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	padding: 10px 0px;
+}
+aside .widget ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+aside .widget ul li a:hover {
+	color: #8f8f8f;
+}
+aside .widget p {
+	/*Espacio entre lineas*/
 	line-height: 27px;
 }
