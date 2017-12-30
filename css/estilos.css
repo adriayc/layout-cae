@@ -15,7 +15,7 @@ body {
 
 .contenedor {
 	width: 1000px;
-	margin: 20px;
+	margin: 20px auto;	/*Centrar horizontalmente*/
 
 	/*Para solucionar el problema del float*/
 	overflow: hidden;
@@ -111,4 +111,16 @@ aside .widget ul li a:hover {
 aside .widget p {
 	/*Espacio entre lineas*/
 	line-height: 27px;
+}
+
+footer {
+	width: 700px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0px;
+	
+	/*Solucionar el problema del float*/
+	/*overflow: hidden;*/
+	clear: both;	/*Para empezar una nueva linea*/
 }
