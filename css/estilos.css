@@ -14,7 +14,9 @@ body {
 }
 
 .contenedor {
-	width: 1000px;
+	/*width: 1000px;*/
+	max-width: 1000px; 	/*Ancho maximo*/
+	width: 90%;		/*Si la pantalla es menor de 1000px abarca el 90%*/
 	margin: 20px auto;	/*Centrar horizontalmente*/
 
 	/*Para solucionar el problema del float*/
@@ -51,7 +53,8 @@ header nav ul li a:hover {
 }
 
 .main {
-	width: 700px;
+	/*width: 700px;*/
+	width: 70%;
 	background: #fff;
 
 	float: left;
@@ -79,7 +82,8 @@ header nav ul li a:hover {
 }
 
 aside {
-	width: 300px;
+	/*width: 300px;*/
+	width: 30%;
 	background: #161f26;
 	color: #fff;
 	padding: 20px;
@@ -114,7 +118,8 @@ aside .widget p {
 }
 
 footer {
-	width: 700px;
+	/*width: 700px;*/
+	width: 70%;
 	background: #000;
 	color: #fff;
 	text-align: center;
@@ -124,3 +129,9 @@ footer {
 	/*overflow: hidden;*/
 	clear: both;	/*Para empezar una nueva linea*/
 }
+
+
+/*Adaptar el contenido de nuesta pagina*/
+/*
+- Colocar el ancho de los contenedores en porcentaje.
+*/
