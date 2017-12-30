@@ -135,3 +135,28 @@ footer {
 /*
 - Colocar el ancho de los contenedores en porcentaje.
 */
+
+/*MEDIAQUERIES*/
+/*Se ejecuta de 800px para abajo*/
+@media screen and (max-width: 800px) {
+	/*body {
+		background: #000;
+	}*/
+
+	.main {
+		width: 100%;
+	}
+	aside {
+		width: 100%;
+	}
+	footer {
+		width: 100%;
+	}
+}
+
+/*Se ejecuta de 800px para arriba*/
+/*@media screen and (min-width: 800px) {
+	body {
+		background: #000;
+	}
+}*/
